@@ -17,15 +17,12 @@ h3 {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    gap: 3rem;
 }
 
 .scoreboard {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    justify-content: center;
 }
 
 .score {
@@ -41,6 +38,33 @@ h3 {
     color: #F94F6E;
     font-size: 7rem;
     font-family: 'Black Ops One', sans-serif;
+}
+.set {
+  display: flex;
+  gap: 3rem;
+}
+
+.home-set-value,
+.guest-set-value {
+  color: #ffffff;
+  margin: 0;
+}
+
+#home-set-score {
+    background-color: inherit;
+    color: #ffffff;
+    border: solid 2px #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
+}
+#guest-set-score {
+    background-color: inherit;
+    color: #ffffff;
+    border: solid 2px #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
 }
 
 .btn {

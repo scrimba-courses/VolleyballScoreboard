@@ -14,20 +14,36 @@
   <div class="container">
     <div class="scoreboard">
       <h3>HOME</h3>
-      <div class="score">12</div>
+      <div id="home-score" class="score">0</div>
       <div class="buttons">
-        <button class="btn btn-home">+1</button>
-        <button class="btn btn-home">+2</button>
-        <button class="btn btn-home">+3</button>
+        <button onclick="homeAddOne()" class="btn btn-home">+1</button>
+        <button onclick="homeAddTwo()" class="btn btn-home">+2</button>
+        <button onclick="homeAddThree()" class="btn btn-home">+3</button>
+      </div>
+      <div class="reset">
+        <button onclick="resetScore()" class="btn btn-reset">RESET</button>
+      </div>
+    </div>
+    <div class="set">
+      <div class="home-set-value">
+        <p class="set-label">SET</p>
+        <p id="home-set-score">0</p>
+      </div>
+      <div class="guest-set-value">
+        <p class="set-label">SET</p>
+        <p id="guest-set-score">0</p>
       </div>
     </div>
     <div class="scoreboard">
       <h3>GUEST</h3>
-      <div class="score">5</div>
+      <div id="guest-score" class="score">0</div>
       <div class="buttons">
-        <button class="btn btn-home">+1</button>
-        <button class="btn btn-home">+2</button>
-        <button class="btn btn-home">+3</button>
+        <button onclick="guestAddOne()" class="btn btn-home">+1</button>
+        <button onclick="guestAddTwo()" class="btn btn-home">+2</button>
+        <button onclick="guestAddThree()" class="btn btn-home">+3</button>
+      </div>
+      <div class="reset">
+        <button onclick="resetScore()" class="btn btn-reset">RESET</button>
       </div>
     </div>
   </div>
