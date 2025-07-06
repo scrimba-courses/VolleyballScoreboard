@@ -12,6 +12,20 @@ h3 {
     margin: 0;
 }
 
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    color: #ffffff;
+    padding: 0 20px;
+}
+
+a {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
 .container {
     display: flex;
     justify-content: center;
